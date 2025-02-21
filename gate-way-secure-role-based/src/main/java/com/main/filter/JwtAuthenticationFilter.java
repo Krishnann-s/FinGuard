@@ -1,4 +1,4 @@
-package com.cg.filter;
+package com.main.filter;
 import io.jsonwebtoken.Claims;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.server.reactive.ServerHttpRequest;
@@ -12,7 +12,7 @@ import org.springframework.web.server.ServerWebExchange;
 import org.springframework.web.server.WebFilter;
 import org.springframework.web.server.WebFilterChain;
 
-import com.cg.util.JwtUtil;
+import com.main.util.JwtUtil;
 
 import reactor.core.publisher.Mono;
 

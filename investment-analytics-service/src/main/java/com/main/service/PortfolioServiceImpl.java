@@ -125,7 +125,7 @@ public class PortfolioServiceImpl implements PortfolioService {
         List<Portfolio> portfolios = portfolioRepository.findByUserId(userId);
         
         if (portfolios.isEmpty()) {
-            logger.warn("No portfolios found for user ID: {}", userId);
+            logger.warn("No portfolios found for user ID: {}", userId); 
         } else {
             logger.info("Retrieved {} portfolios for user ID: {}", portfolios.size(), userId);
         }

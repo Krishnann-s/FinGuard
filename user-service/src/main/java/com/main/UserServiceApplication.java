@@ -16,9 +16,4 @@ public class UserServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(UserServiceApplication.class, args);
 	}
-	
-	abstract class demo() {
-		void String addName(String names);
-	}
-	
 }
